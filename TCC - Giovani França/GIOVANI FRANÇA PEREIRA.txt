@@ -1,0 +1,128 @@
+GIOVANI FRANÇA PEREIRA .
+
+
+PROPOSTA DE PROJETO.
+
+Resumo: A tecnologia vem se desenvolvendo de forma surpreendente. Com a criação dos leitores de tela, pessoas com deficiência visual tem acesso ao computador e a internet. Grande parte dos sites acessados por estes indivíduos não apresentam acessibilidade. Este trabalho fala sobre o desenvolvimento de um tutorial destinado a orientar desenvolvedores web. Além disso, este tutorial se aplicará em um estudo de caso para o INAV (Instituto da Audiovisão). A seção 1 tratará da introdução, abordando aspectos importantes com relação a lei da acessibilidade na web e outros tópicos. A seção 2 abordará o problema e o objetivo deste trabalho. A seção 3 tratará da proposta de solução, apresentando as etapas de desenvolvimento do projeto. A seção 4 falará do desenvolvimento do projeto, relatando as recomendações de acessibilidade, o desenvolvimento do tutorial e o estudo de caso, bem como a estrutura do site e as  tecnologias utilizadas no desenvolvimento e a seção 5 abordará as conclusões finais. .
+Palavras-chave: Acessibilidade. Acessibilidade na web. Inclusão. .
+
+
+1, Introdução.
+
+ Acessibilidade é a possibilidade de utilizar qualquer dispositivo ou algum outro recurso com total autonomia (Brasília, 2015, capítulo III, ART. 8º). Existem diversas definições do termo acessibilidade, porém essa é a mais adequada para este documento.
+Segundo a Lei 13.146/15, Art. 63, a acessibilidade em sites é obrigatória nas empresas ou em órgãos de governo para uso de pessoas com deficiência visual. Além dessa lei, a W3C criou um conjunto de normas a fim de estabelecer um padrão de acessibilidade para o conteúdo da web com o nome de Diretrizes de Acessibilidade Para Conteúdo Web (WCAG) 2.0. Os sites que possuem acessibilidade são aqueles desenvolvidos por cegos.
+Acessibilidade na web pode ser definida como a possibilidade de utilizar com segurança, autonomia e em igualdade de oportunidade os sites disponíveis na web (W3c Brasil, 2016, pág. 21).
+Pode-se dizer que a maioria dos sites do governo não são acessíveis. Em 2011, apenas 6,96% das páginas do governo federal eram acessíveis e numa pesquisa realizada em 2010 pelo Senso na Web do CGI.Br, 98% das páginas governamentais (de domínio “gov.br”) não possuíam acessibilidade (Silva, 2017).
+De acordo com a pesquisa realizada pelo PNAD de 2014, 57% é o percentual de pessoas com deficiência que utilizam frequentemente a internet no Brasil, acima da média brasileira que é de 54% (FREIRE, 2017).
+
+2, Diagnóstico e Objetivos.
+
+ A lei para acessibilidade na web existe e as normas também, porém a maioria dos órgãos públicos não segue estes requisitos. Pode-se pensar que um dos motivos é a falta de informação com relação às normas. O objetivo deste trabalho é orientar desenvolvedores através de um tutorial com recomendações para produzir e avaliar sites com acessibilidade. Este tutorial se aplicará em um estudo de caso. Este estudo consiste no desenvolvimento de um site para o INAV (Instituto da Audiovisão).
+
+3, Proposta de Solução (Plano de Projeto).
+
+A proposta de solução está baseada em um estudo sobre recomendações para o desenvolvimento de um tutorial e posteriormente validação em um estudo de caso. As etapas para o desenvolvimento das propostas são: .
+1ª etapa: Estudar e selecionar as recomendações mais importantes que foram colocadas neste documento (eMAG, 2014).
+2ª etapa: Desenvolver o tutorial, compilando as recomendações selecionadas.
+3ª etapa: Orientar o desenvolvimento do site com base no tutorial.
+4ª etapa: Avaliar o site através de um checklist.
+
+4, Desenvolvimento do Projeto.
+
+ Ao se desenvolver um site acessível para pessoas com deficiência visual, existem recomendações que devem ser seguidas. Neste trabalho utilizaram-se as recomendações do eMAG ( Modelo de Acessibilidade em Governo Eletrônico). O eMAG é constituído por 45 recomendações, neste trabalho foram abordadas 25.
+1ª Recomendação: Organizar o código HTML de forma lógica e semântica.
+O código HTML deve apresentar os elementos de uma forma que o usuário possa entendê-lo e que corresponda ao conteúdo desejado. Cada elemento HTML deve ser utilizado no seu devido lugar. Assim, marcação semântica adequada deve ser utilizada para designar os cabeçalhos (h1, h2, h3), as listas (ul, ol, dl), texto enfatizado (strong), marcação de código (code), marcação de abreviaturas (abbr), marcação de citações longas (blockquote), etc.
+Além disso, o código empregado corretamente é muito importante para pessoas com deficiência visual, pois os leitores de tela descrevem primeiro o tipo de elemento e depois realizam a leitura do conteúdo que se encontra dentro deste (eMAG, 2014, pág. 19).
+2ª Recomendação: Utilizar corretamente os níveis de cabeçalho.
+Os níveis de cabeçalho (elementos HTML H1 a H6) devem ser utilizados de forma hierárquica, pois organizam a ordem de importância dos conteúdos, facilitando a leitura. Muitos leitores de tela utilizam a hierarquia de cabeçalhos como uma forma de navegação na página, pulando de um para o outro, agilizando a navegação.
+O nível H1 é o mais alto, isto é, corresponde ao conteúdo principal de uma página, porém existem 6 níveis (eMAG, 2014, pág. 20).
+3ª Recomendação: Ordenar de forma lógica e intuitiva a leitura e tabulação.
+O código HTML deve seguir uma sequência lógica de forma que o bloco do conteúdo principal da página seja disponibilizado antes do bloco de menu. Isso é muito importante para quem utiliza a navegação via teclado, permitindo o acesso rápido, evitando uma navegação por todos os itens de menu antes de chegar ao conteúdo desejado (eMAG, 2014, pág. 22).
+4ª Recomendação: Fornecer âncoras de atalhos para ir direto a um bloco de conteúdo.
+As âncoras devem ser disponibilizadas na barra de acessibilidade. Elas apontam para links importantes presentes na mesma página. Desta forma, é possível ir ao bloco de conteúdo desejado. Os links devem ser colocados em pontos estratégicos, como no início e fim do conteúdo e início/fim do menu.
+Os atalhos por teclado podem ser usados através do atributo accesskey nos links importantes.
+Isso facilita a utilização das âncoras. Não pode haver repetição do mesmo accesskey em uma página (eMAG, 2014, pág. 23).
+5ª Recomendação: Não utilizar tabelas para diagramação.
+As tabelas devem ser usadas apenas para dados tabulares. Para a disposição dos elementos na página, utilize as folhas de estilo (eMAG, 2014 pág. 25).
+6ª Recomendação: Separar links adjacentes.
+Links adjacentes devem ser separados por mais do que simples espaços, para que não fiquem confusos, principalmente para usuários que utilizam leitor de tela. Para isso, é recomendado o uso de listas, onde cada elemento dentro da lista é um link. Estas podem ser estilizadas visualmente com CSS para que os itens sejam mostrados da maneira desejada, como um ao lado do outro (eMAG, 2014, pág.
+26).
+7ª Recomendação: Dividir as áreas de informação.
+As áreas de informação devem ser divididas em grupos fáceis de gerenciar. As divisões mais comuns são “topo”, “conteúdo”, “menu” e “rodapé”. Deve-se manter uma mesma divisão nas páginas internas, afim de que o usuário se familiarize rapidamente com a estrutura do site (eMAG, 2014, pág. 28). 8ª Recomendação: Não abrir novas instâncias sem a solicitação do usuário.
+A decisão de utilizar-se de novas abas ou janelas para acesso a páginas ou qualquer informação deve ser de escolha do usuário. Desta forma, não devem ser utilizados Pop-ups, a abertura de novas abas ou janelas, o uso do atributo target= “_blank”, mudanças no controle do foco do teclado, dentre outros elementos.
+É muito importante que os links abram na guia ou janela atual de navegação, pois os usuários com deficiência visual podem ter dificuldade em identificar que uma nova janela foi aberta. Além disso, estando em uma nova janela, não conseguirão retornar à página anterior utilizando a opção voltar do navegador. Quando for realmente necessária a abertura de um link em nova janela, é recomendado que tal ação seja informada ao usuário no próprio texto do link. Isso permite ao usuário decidir se quer ou não sair da janela ou aba em que se encontra e, caso decida acessar o link, ele saberá que se trata de uma nova aba ou janela (EMAG, 2014, pág. 33).
+9ª Recomendação: Disponibilizar todas as funções da página via teclado.
+Todas as funções da página desenvolvidas utilizando-se linguagens de script (javascript) devem ser programadas, primeiramente, para o uso com teclado. O foco não deverá estar bloqueado ou fixado em um elemento da página, para que o usuário possa mover-se pelo teclado por todos os elementos.
+Algumas funções específicas do mouse possuem uma função lógica correspondente via teclado (eMAG, 2014, pág. 36).
+10ª Recomendação: Garantir que os objetos programáveis sejam acessíveis.
+Deve-se garantir que scripts e conteúdos dinâmicos e outros elementos programáveis sejam acessíveis e que seja possível sua execução via navegação. Além de proporcionar o uso por teclado, estratégias devem ser adotadas para proporcionar o acesso a todos independente de seu dispositivo. A função “alert” do javascript não gera um pop-up e sim uma mensagem que é lida por todos os leitores de tela. Quando não for possível que o elemento programável seja acessível, deve ser fornecida uma alternativa em HTML para o conteúdo. Além disso, se o script for utilizado em uma página, uma forma de fornecer uma alternativa para ele é através do elemento NOSCRIPT. Este elemento pode ser utilizado para mostrar conteúdos em navegadores que não suportam scripts ou que tenham o script desabilitado. No entanto, se o navegador tiver suporte a scripts e estes estiverem habilitados, o elemento NOSCRIPT será ignorado. Dessa forma, a utilização do elemento NOSCRIPT para um script inacessível não garante que o objeto seja acessível. Assim, a recomendação é que o próprio script seja desenvolvido tomandose o cuidado para que ele seja acessível, e o elemento NOSCRIPT deve ser utilizado para abranger os casos em que scripts não são suportados (eMAG, 2014, pág. 38).
+11ª Recomendação: Não criar páginas com atualização automática periódica.
+Esta atualização automática é muito utilizada por canais de notícias. O problema dessa atualização é que ela tira do usuário sua autonomia em relação à escolha (semelhante a abertura de novas instâncias em navegadores) e podem confundir e desorientar os usuários, principalmente aqueles que utilizam leitores de tela (eMAG, 2014, pág. 39).
+12ª Recomendação: Não utilizar redirecionamento automático de páginas.
+Não devem ser utilizadas marcações para redirecionar a uma nova página, como o uso do atributohttp-equiv com conteúdo“refresh” do elemento META.Ao. Invés disso, deve-se configurar o servidor para que o redirecionamento seja transparente para o usuário (eMAG, 2014, pág. 40).
+13ª Recomendação: Identificar o idioma principal da página.
+O principal idioma utilizado nos documentos deve ser identificado. A identificação é feita por meio do atributo lang do HTML e, para documentos XHTML, é usado o xml:lang. Ele deve ser declarado em todas as páginas, pois além de auxiliar na acessibilidade do conteúdo, também permite melhor indexação pelos motores de busca (eMAG, 2014, pág. 42).
+14ª Recomendação: Oferecer um título descritivo e informativo à página.
+O título da página deve ser descritivo e informativo, devendo representar o conteúdo principal, já que essa informação será a primeira lida pelo leitor de tela. Quando o usuário acessar a página. O título é informado pelo elemento TITLE e deve preferencialmente seguir a estrutura recomendada pelo ePWG, que é [assunto principal da página] – [nome do sítio ou sistema] sem palavras extras (eMAG, 2014, pág. 43).
+15ª Recomendação: Informar o usuário sobre sua localização na página.
+Para que o usuário saiba aonde está dentro de um conjunto de páginas, deverá ser fornecido um mecanismo permitindo que ele consiga orientar-se. Assim, poderá ser utilizado o recurso de “migalha de pão” (breadcrumbs), que são links navegáveis em forma de lista hierárquica os quais permitem que o usuário saiba qual o caminho percorrido até chegar à página em que se encontra no momento (eMAG, 2014, pág. 44).
+16ª Recomendação: Descrever links clara e sucintamente.
+Deve ser identificado claramente o destino de cada link, informando, se o link remete a outro site. Além disso, é preciso que o texto do link faça sentido mesmo quando isolado do contexto da página.
+É preciso tomar cuidado para não utilizar a mesma descrição para dois ou mais links que apontem para locais diferentes. Da mesma forma, links que remetem ao mesmo destino devem ter a mesma descrição (eMAG, 2014, pág. 45).
+17ª Recomendação: Fornecer alternativa em texto para as imagens do site.
+Deve ser fornecida uma descrição para as imagens da página, utilizando o atributo alt. Ele é utilizado para descrições sintéticas, em poucas palavras ou em uma frase curta. Para imagens mais complexas que exigem uma descrição mais detalhada, como infográficos, deve-se fornecer, além do alt, a descrição no próprio contexto ou um link para a descrição longa logo após a imagem (eMAG, 2014, pág. 46).
+18ª Recomendação: Disponibilizar documentos em formatos acessíveis.
+Os documentos devem ser disponibilizados preferencialmente em HTML. Também podem ser utilizados arquivos para download no formato ODF, tomando-se os cuidados para que sejam acessíveis. Se um arquivo for disponibilizado em PDF, deverá ser fornecida uma alternativa em HTML ou ODF. O ODF (Open Document Format) é um formato aberto de documento adotado pela e-PING (Arquitetura de Interoperabilidade em Governo Eletrônico) que pode ser implementado em qualquer sistema. O ODF engloba formatos como: ODT (Open Data Text) para documentos de texto, ODS (Open Data Sheet) para planilhas eletrônicas, ODP (Open Data Presentation) para apresentações de slides, entre outros (eMAG, 2014, pág. 52).
+19ª Recomendação: Oferecer contraste mínimo entre plano de fundo e primeiro plano.
+As cores do plano de fundo e do primeiro plano devem ser suficientemente contrastantes para que possam ser visualizadas, também, por pessoas com baixa visão, com cromodeficiências ou que utilizam monitores de vídeo monocromático. A relação de contraste entre plano de fundo e primeiro plano de 3:1 é o nível mínimo de contraste recomendado pela ISO-9241-3. No entanto, levando em consideração a perda de percepção do contraste resultante da baixa acuidade visual, cromodeficiência ou perda de sensibilidade ao contraste devido ao envelhecimento, é recomendada aqui uma maior relação de contraste, de, no mínimo, 4,5:1 (eMAG, 2014, pág. 59).
+20ª Recomendação: Permitir redimensionamento sem perda de funcionalidade.
+A página deve continuar legível e funcional mesmo quando redimensionada para até 200%. Assim, é preciso garantir que, quando a página for redimensionada, não ocorram sobreposições nem o aparecimento de uma barra horizontal. Além de permitir o redimensionamento sem perda de funcionalidade, o leiaute do site deve adequar-se à resolução de tela do dispositivo pelo qual está sendo acessado, já que, atualmente, não existe mais um padrão de resolução de tela para os computadores e há uma crescente utilização de dispositivos móveis (eMAG, 2014, pág. 61).
+21ª Recomendação: Fornecer alternativa para vídeo.
+Para vídeos que contêm áudio falado e no idioma natural da página, devem ser fornecidas legendas. A alternativa em texto também é importante, principalmente à pessoas com deficiência visual e para usuários que não possuem equipamento de som, que desejam apenas realizar a leitura do material ou não dispõem de tempo para ouvir um arquivo multimídia. É importante ressaltar que o player de vídeo deve ser acessível. Deve ser possível acessar os controles via teclado e os mesmos devem estar devidamente descritos, para serem interpretados pelos leitores de tela (eMAG, 2014, pág. 64).
+22ª Recomendação: Fornecer controle de áudio para som.
+Deve ser fornecido um mecanismo para parar, pausar, silenciar ou ajustar o volume de qualquer som que se reproduza na página (eMAG, 2014, pág. 68).
+23ª Recomendação: Fornecer alternativa em texto para os botões de imagem de formulários.
+Ao serem utilizados botões do tipo imagem (input type=”image”), que servem para o mesmo propósito do botão do tipo submit, deve ser fornecida uma descrição textual para o botão através do atributo alt (eMAG, 2014, pág. 70).
+24ª Recomendação: Associar etiquetas aos seus campos.
+As etiquetas de texto (elemento LABEL) devem estar associadas aos seus campos (elementos INPUT, SELECT e TEXTAREA, à exceção do elemento BUTTON) (eMAG, 2014, pág. 70).
+25ª Recomendação: Estabelecer uma ordem lógica de navegação.
+Os elementos do formulário devem ser distribuídos corretamente através do código HTML, criando, assim, uma sequência lógica de navegação. Desta forma, os formulários devem primeiro ser codificados considerando a ordem lógica de navegação para depois serem organizados visualmente via CSS (eMAG, 2014, pág. 71).
+4.1. Tutorial.
+Nesta seção, elaborou-se o tutorial. A ideia deste é orientar desenvolvedores web.
+1. Atalhos de teclado.
+Devem ser disponibilizados atalhos de teclado para pontos estratégicos da página. Isso permite que o usuário possa ir a esses pontos diretamente. Os atalhos devem funcionar através de números seguidos da tecla padrão de cada navegador (Alt no Internet Explorer, Shift + Alt no Firefox, Shift + Esc no Opera, etc.). Os atalhos que devem estar presente nas páginas são os seguintes: a) Para ir ao conteúdo.
+b)  Para ir ao menu principal.
+c)   Para ir a caixa de pesquisa (eMAG, 2014, pág. 84).
+Os atalhos de teclado podem ser inseridos através do atributo accesskey. Para mais informações, consulte a 4ª recomendação descrita neste documento.
+2. Primeira folha de Contraste.
+A opção alto contraste deve gerar uma página em que a relação de contraste entre o plano de fundo e os elementos do primeiro plano seja de, no mínimo 7:1. Desta forma, a folha principal de auto contraste deve obedecer a seguinte configuração de cores:.
+Cor de fundo: independente da cor utilizada, ela deve ser alterada para preto (#000000).
+Cor de texto: independente da cor utilizada, ela deve ser alterada para branco (#FFFFFF).
+Links: O modo normal do link deve ser sublinhado (para que ele se diferencie do texto normal), assim como o modo hover e o modo active. O link deve ser alterado para amarelo (#FFF333) Ícones: Todos os ícones devem ser brancos.
+Linhas e contornos: As linhas e os contornos de elementos devem ser alterados para branco (eMAG, 2014, pág. 84).
+As cores do plano de fundo devem ser contrastantes para que possam ser visualizadas, principalmente por pessoas com baixa visão. Para mais informações, consulte a 19ª recomendação descrita neste documento.
+3. Barra de acessibilidade.
+O site deve conter uma barra de acessibilidade no topo de cada página contendo os seguintes itens: Auto contraste, Atalhos (para Conteúdo, Menu e Busca) (eMAG, 2014, pág. 85).
+4. Apresentação do mapa do site.
+O mapa do site deve ser disponibilizado em forma de lista hierárquica (utilizando os  elementos de lista do HTML), podendo conter quantos níveis forem necessários (eMAG, 2014, pág. 86).
+5. Descrição de textos em imagens/gráficos.
+É muito importante que nas imagens e gráficos aja uma descrição textual. Para isso, utiliza-se o atributo alt. Para mais informações, consulte a 17ª recomendação descrita neste documento.
+As outras recomendações descritas neste documento também são importantes. Não existe uma ordem de qual deve ser colocada primeiro, o importante é que elas devem ser implementadas.
+4.2. Estudo de caso.
+O INAV (Instituto da Audiovisão) oferece oportunidades de educação, habilitação e reabilitação visando a inclusão escolar, profissional, e psicossocial de pessoas surdocegas, cegas e com baixa visão associadas ou não a outras deficiências. O INAV foi fundado em 19 de fevereiro de 2009.
+O INAV possuía um site. Porém com o tempo, o mesmo não pôde ser mantido, devido a razões operacionais e técnicas. No final do ano passado, a instituição decidiu criar um site novo, com acessibilidade às pessoas com deficiência visual. O desenvolvimento do site foi feito por uma empresa terceirizada. Para o desenvolvimento do mesmo, a empresa seguiu as orientações contidas neste documento.
+              Ao abrir o site, percebe-se que o endereço e o telefone do Instituto encontram-se no topo da página e o logo no final.
+              A navegação é realizada através de botões. A pessoa com deficiência visual pode utilizar os atalhos b e shift + b para navegar. Ao pressionar enter no botão agenda, abre-se um cabeçalho com o respectivo conteúdo logo abaixo.
+              As imagens inseridas no site foram descritas corretamente (17ª recomendação descrita neste documento). Além disso, os cabeçalhos estão bem organizados (2ª recomendação descrita neste documento). E o código HTML está estruturado, facilitando a leitura pelos leitores de tela (1ª recomendação descrita neste documento).
+              Além das diretrizes de acessibilidade, o eMAG criou um documento com diversos itens, a fim de facilitar as pessoas com deficiência visual a realizarem avaliação da acessibilidade em sites. Estes itens compõem um checklist.
+             Os links foram colocados de forma correta. Eles abrem na página atual sem problema (eMAG, 2010, pág. 7).
+            As imagens estão descritas. A descrição da mesma é iniciada com a informação correta (eMAG, 2010, pág. 8).
+            Os parágrafos e frases são compreendidos corretamente (eMAG, 2010, pág. 8).
+            Os botões funcionam adequadamente. A descrição está correta (eMAG, 2010, pág. 8).
+            Os títulos estão ordenados logicamente. A descrição está correta (eMAG, 2010, pág. 9).
+Utilizou-se uma plataforma chamada uics próh. Esta ferramenta possui plug-ins que permitem realizar alterações na programação do site. A plataforma utiliza HTML5.
+
+5, Conclusões.
+
+ Deste trabalho, conclui-se que os resultados foram satisfatórios. Todas as etapas para a aplicação do estudo de caso foram realizadas. Além disso, a ideia de criar um tutorial para auxiliar pessoas que trabalham na área do desenvolvimento web é muito importante e válido.
+Para usos futuros, este trabalho pode ser utilizado, a fim de orientar no desenvolvimento de novos sites.
